@@ -9,7 +9,7 @@ router.get("/", (req, res) => {
 
 router.get("/:tagId/posts", (req, res) => {
   const tagId = Number(req.params.tagId);
-  const foundPostById = fakePosts.filter(tag => tag.tag_ids === tagId);
+  const foundPostById = fakePosts.filter(tag => tag.tag_ids.includes(tagId));
   if (!foundPostById) {
     return res.status(404).json({
       error: "Post not found"
