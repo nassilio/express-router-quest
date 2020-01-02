@@ -1,5 +1,5 @@
 [
-  { "id": 1, "name": "Front-end", "tag_ids": [1] },
-  { "id": 2, "name": "Back-end", "tag_ids": [2] },
-  { "id": 3, "name": "JavaScript", "tag_ids": [3] }
+  { "id": 1, "name": "Front-end" },
+  { "id": 2, "name": "Back-end" },
+  { "id": 3, "name": "JavaScript" }
 ]
